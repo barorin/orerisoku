@@ -71,7 +71,7 @@ with result_placeholder.container():
             "",
             value=f"{interest_amount}",
             key="interest_result",
-            disabled=True,
+            disabled=False,
             label_visibility="collapsed",
         )
 
@@ -86,7 +86,7 @@ with result_placeholder.container():
             "",
             value=f"{income_tax}",
             key="income_tax_result",
-            disabled=True,
+            disabled=False,
             label_visibility="collapsed",
         )
 
@@ -98,7 +98,7 @@ with result_placeholder.container():
             "",
             value=f"{local_tax}",
             key="local_tax_result",
-            disabled=True,
+            disabled=False,
             label_visibility="collapsed",
         )
 
@@ -110,7 +110,7 @@ with result_placeholder.container():
             "",
             value=f"{total_tax}",
             key="total_tax_result",
-            disabled=True,
+            disabled=False,
             label_visibility="collapsed",
         )
 
@@ -122,7 +122,7 @@ with result_placeholder.container():
             "",
             value=f"{gross_interes_final}",
             key="gross_interest_result",
-            disabled=True,
+            disabled=False,
             label_visibility="collapsed",
         )
 
