@@ -90,7 +90,8 @@ with result_placeholder.container():
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        st.write("地方税利子割（円）", help="地方税（5%）※個人のみ")
+        st.write("地方税利子割（円）")
+        st.caption("地方税（5%）※個人のみ")
     with col2:
         st.text_input(
             "",
