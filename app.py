@@ -77,10 +77,8 @@ with result_placeholder.container():
 
     col1, col2 = st.columns([1, 1])
     with col1:
-        st.write(
-            "所得税および復興特別所得税（円）",
-            help="所得税（15%）+ 復興特別所得税（0.315%）",
-        )
+        st.write("所得税および復興特別所得税（円）")
+        st.caption("所得税（15%）+ 復興特別所得税（0.315%）")
     with col2:
         st.text_input(
             "",
